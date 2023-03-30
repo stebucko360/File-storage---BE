@@ -5,3 +5,5 @@ exports.retrieveAllObjects = async () => {
   const objectsWithUrls = await createObjectURLs(s3Objects.Contents);
   return objectsWithUrls;
 };
+
+exports.sendNewObject = async () => {};
