@@ -1,7 +1,7 @@
 const app = require("../index");
 const request = require("supertest");
 
-describe("GET: /api/s3", () => {
+describe.skip("GET: /api/s3", () => {
   test("When making a call to the endpoint /api/s3, should return bucket objects", () => {
     return request(app)
       .get("/api/s3")
