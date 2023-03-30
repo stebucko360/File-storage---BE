@@ -7,7 +7,7 @@ describe.skip("GET: /api/s3", () => {
       .get("/api/s3")
       .expect(200)
       .then((result) => {
-        expect(result.body).toBeInstanceOf(Object);
+        expect(result.body).toBeInstanceOf(Array);
       });
   });
 });
